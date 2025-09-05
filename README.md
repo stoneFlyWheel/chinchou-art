@@ -16,3 +16,5 @@
   <li>this project was made before i began moving my stuff to github. i don't have access to previous versions, so it exists in its finished form only. sorry!</li>
 </ol>
 
+<h4>link:</h4>
+<p>here's a link to a functioning example: <a href="https://codepen.io/stoneflywheel/pen/WbQLMvP?editors=1100">click me!</a></p>
