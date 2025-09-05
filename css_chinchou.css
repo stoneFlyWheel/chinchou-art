@@ -1,0 +1,295 @@
+.whole {
+  display: flex;
+}
+
+.image1 {
+  width: 400px;
+  height: 350px;
+}
+
+.outer {
+  width: 500px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: 20px;
+  position: relative;
+}
+
+.left_foot {
+  width: 30px;
+  height: 50px;
+  background: #6071A7;
+  border: 2px solid black;
+  border-radius: 45%;
+  position: absolute;
+  top: 240px;
+  left: 260px;
+  transform: rotate(-20deg);
+}
+
+.right_foot {
+  width: 30px;
+  height: 50px;
+  background: #6071A7;
+  border: 2px solid black;
+  border-radius: 45%;
+  position: absolute;
+  top: 240px;
+  right: 120px;
+  transform: rotate(-20deg);
+}
+
+.head_back {
+  background: #6071A7;
+  height: 160px;
+  width: 220px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 50% 50%;
+  position: absolute;
+  right: 120px;
+  top: 120px;
+}
+
+.left_fin {
+  width: 90px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 100% 0% 60% 40% / 60% 0% 100% 40%;
+  background: #A2A7BA;
+  transform: rotate(35deg);
+  position: absolute;
+  left: 100px;
+  top: 180px;
+}
+
+.right_fin {
+  width: 90px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 100% 0% 60% 40% / 60% 0% 100% 40%;
+  background: #A2A7BA;
+  transform: rotate(170deg) scaleY(-1);
+  position: absolute;
+  right: 60px;
+  top: 220px;
+}
+
+.left_eye {
+  background: #BCB068;
+  height: 72px;
+  width: 48px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 50% 50%;
+  position: absolute;
+  left: 162px;
+  top: 170px;
+  transform: rotate(15deg);
+}
+
+.right_eye {
+  background: #BCB068;
+  height: 80px;
+  width: 66px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 50% 50%;
+  position: absolute;
+  right: 180px;
+  top: 180px;
+  transform: rotate(-15deg);
+}
+
+.vpupilL {
+  height: 50px;
+  width: 9px;
+  background: black;
+  border-radius: 45%;
+  position: inherit;
+  right: 23px;
+  bottom: 10px;
+  transform: rotate(5deg);
+}
+
+.hpupilL {
+  height: 9px;
+  width: 35px;
+  background: black;
+  border-radius: 45%;
+  position: inherit;
+  right: 10px;
+  bottom: 28px;
+  transform: rotate(10deg);
+}
+
+.vpupilR {
+  height: 55px;
+  width: 10px;
+  background: black;
+  border-radius: 45%;
+  position: inherit;
+  right: 27px;
+  bottom: 10px;
+  transform: rotate(10deg);
+}
+
+.hpupilR {
+  height: 10px;
+  width: 48px;
+  background: black;
+  border-radius: 45%;
+  position: inherit;
+  right: 9px;
+  bottom: 30px;
+  transform: rotate(10deg);
+}
+
+.mouth {
+  width: 6px;
+  height: 14px;
+  background: #B77873;
+  border: 2px solid black;
+  border-radius: 45%;
+  position: absolute;
+  left: 220px;
+  top: 250px;
+  transform: rotate(-10deg);
+}
+
+.antennaL {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, transparent 67%, black 67%, black 68%, #6071A7 68%);
+  clip-path: polygon(0 39%, 100% 55%, 100% 100%, 0% 100%);
+  transform: rotate(180deg) scale(2.8, 1.8);
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+
+.antennaR {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, transparent 64%, black 64%, black 66%, #6071A7 66%);
+  clip-path: polygon(0 39%, 100% 45%, 100% 100%, 0% 100%);
+  transform: rotate(180deg) scale(1.2, 2.1) scaleX(-1);
+  position: absolute;
+  top: 110px;
+  right: 45px;
+}
+
+.highlightR {
+  background: rgba(255, 255, 235, 0.2);
+  width: 120px;
+  height: 100px;
+  border-radius: 50%;
+  transform: rotate(-25deg);
+  position: absolute;
+  top: 165px;
+  right: 120px;
+}
+
+.highlightR2 {
+  background: rgba(255, 255, 235, 0.2);
+  width: 50px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+}
+
+.left_light {
+  width: 80px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 100% 0% 60% 40% / 60% 0% 100% 40%;
+  background: #EFDF80;
+  transform: rotate(-35deg);
+  position: absolute;
+  top: 130px;
+  left: 18px;
+}
+
+.left_light2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 48%;
+  background: #FEF1E0;
+  box-shadow: 0px 0px 5px #FEF1E0;
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+
+.right_light {
+  width: 80px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 100% 0% 60% 40% / 60% 0% 100% 40%;
+  background: #EFDF80;
+  transform: rotate(35deg) scaleX(-1);
+  position: absolute;
+  top: 180px;
+  right: -8px;
+}
+
+.right_light2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 48%;
+  background: #FEF1E0;
+  box-shadow: 0px 0px 5px #FEF1E0;
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+
+.highlightL {
+  background: rgba(255, 255, 235, 0.2);
+  width: 30px;
+  height: 80px;
+  border-radius: 50%;
+  transform: rotate(-5deg);
+  position: absolute;
+  top: 165px;
+  left: 158px;
+}
+
+.highlightL2 {
+  background: rgba(255, 255, 235, 0.2);
+  width: 10px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.highlightL3 {
+  background: rgba(255, 255, 235, 0.2);
+  width: 50px;
+  height: 45px;
+  border-radius: 50%;
+  position: absolute;
+  left: -55px;
+  top: 3px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.halfrule {
+  border: 1px double black;
+  width: 200px;
+  margin-bottom: -10px;
+}
+
+h4 {
+  text-align: center;
+}
