@@ -1,2 +1,18 @@
-# chinchou-art
-css art of chinchou!
+<h2>chinchou art!!</h2>
+
+<h4>my goals for this project:</h4>
+<ol>
+  <li>decent replica of a chinchou pokédex art</li>
+  <li>learn how to do css art</li>
+</ol>
+
+<h4>current issues:</h4>
+<ol>
+  <li>N/A :D</li>
+</ol>
+
+<h4>notes:</h4>
+<ol>
+  <li>this project was made before i began moving my stuff to github. i don't have access to previous versions, so it exists in its finished form only. sorry!</li>
+</ol>
+
